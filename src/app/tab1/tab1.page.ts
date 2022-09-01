@@ -11,11 +11,10 @@ export class Tab1Page implements OnInit {
 
   ngOnInit(){
     let numero = 10;
-    debugger;
-    
+    //debugger;
     numero = 20;
     numero = 0;
-    console.log('Continuamos con ionic');
+    console.log('numero '+numero);
   }
 
 }
